@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 9
+names: ['buoy', 'cargoship', 'fishing boat', 'houseboat', 'island', 'navalvessels', 'passenger ship', 'reef', 'sailboat']
+
+roboflow:
+  workspace: ship-mjq2z
+  project: ship-9pfw0
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ship-mjq2z/ship-9pfw0/dataset/4
